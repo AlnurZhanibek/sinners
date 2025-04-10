@@ -6,18 +6,12 @@ export default function Home() {
     <main>
       <section>
         <Image
-          className="w-full"
+          className="w-full h-[400px] md:h-[800px] object-top object-cover"
           src="/number-nine-runway.webp"
           alt="NN Runway Pic"
           sizes="100vw"
           width="100"
           height="400"
-          style={{
-            width: "100%",
-            height: "400px",
-            objectFit: "cover",
-            objectPosition: "top",
-          }}
         />
       </section>
       <section>
